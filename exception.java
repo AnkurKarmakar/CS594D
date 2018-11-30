@@ -1,0 +1,21 @@
+import java.io.*;
+class exception
+{
+	public static void main(String args[])throws IOException
+	{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int a=Integer.parseInt(br.readLine());
+		int b=Integer.parseInt(br.readLine());
+		
+		try
+		{
+			int d = a / b;
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+		
+		
+	}
+}
